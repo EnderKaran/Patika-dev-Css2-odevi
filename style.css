@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 25px;
+}
+img{
+    width: 360px;
+    height: 260px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+.group-1{
+    background-color: rgb(215, 214, 214);
+    padding: 5px;
+    width: 100%;
+}
+.group-1 .yazi{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.group-1 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.group-1 form input{
+    width: 265px;
+}
+
+.group-1 .buttons{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.group-1 .buttons button{
+    margin-right: 4px;
+}
+
+
+
+.group-2{
+    margin-top: 5px;
+    width: 100%;
+}
+.group-2 .box{
+    float: left;
+    background-color: aquamarine;
+    padding: 20px;
+    margin-right: 5px;
+    width: 33%;
+    height: 80px;
+    text-align: center;
+}
+.group-2 .box p {
+    padding: 0;
+    margin: 0;
+}
+
+.group-2 .box-2{
+    float: left;
+    background-color: rgb(33, 202, 146);
+    padding: 20px;
+    width: 33%;
+    height: 80px;
+    text-align: center;
+}
+.group-2 .box-3{
+    float: right;
+    background-color: rgb(11, 236, 161);
+    padding: 20px;
+    width: 25%;
+    height: 80px;
+    text-align: center;
+}
+.group-2 .box-3 p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.footer{
+    margin-top: 15px;
+    text-align: center;
+}
